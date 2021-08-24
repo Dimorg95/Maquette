@@ -24,3 +24,32 @@ nav img {
 nav a {
   text-decoration: none;
 }
+/*Banniere*/
+#banniere {
+  position: relative;
+}
+
+#banniere_img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+#banniere_contenu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#banniere_contenu img {
+  height: 80px;
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 27px;
+}
