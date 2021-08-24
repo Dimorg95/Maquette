@@ -45,11 +45,46 @@ nav a {
   flex-direction: column;
 }
 #banniere_contenu img {
-  height: 80px;
+  height: 60px;
 }
 
 h1 {
   color: white;
   font-weight: 400;
   font-size: 27px;
+}
+/*Information/Explication du concepte*/
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+#description {
+  max-width: 600px;
+  margin: 20px 0px 20px 0px;
+  font-size: 16px;
+}
+#information {
+  display: flex;
+  max-width: 600px;
+}
+#citation {
+  max-width: 600px;
+}
+#information article {
+  padding: 10px;
+}
+#information h2 {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+#information p {
+  font-size: 14px;
+}
+#citation_contenu {
+  max-width: 475px;
 }
