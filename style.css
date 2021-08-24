@@ -2,10 +2,25 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+/*Header*/
 nav {
   display: flex;
+  justify-content: space-between;
 }
 
 nav ul {
   display: flex;
+  list-style-type: none;
+  margin-right: 20px;
+  align-items: center;
+}
+nav li {
+  margin: 0 10px 0px 20px;
+}
+nav img {
+  height: 80px;
+}
+
+nav a {
+  text-decoration: none;
 }
